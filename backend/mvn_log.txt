@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.lostandfound:lost-found-backend >-----------------
+[INFO] Building Lost & Found Backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.4:run (default-cli) > test-compile @ lost-found-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ lost-found-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ lost-found-backend ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ lost-found-backend ---
+[INFO] skip non existing resourceDirectory D:\lost-found-system\lost-found\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ lost-found-backend ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.4:run (default-cli) < test-compile @ lost-found-backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.4:run (default-cli) @ lost-found-backend ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2026-04-16T15:21:29.434+05:30  INFO 15280 --- [  restartedMain] com.lostandfound.LostFoundApplication    : Starting LostFoundApplication using Java 22.0.2 with PID 15280 (D:\lost-found-system\lost-found\backend\target\classes started by sidda in D:\lost-found-system\lost-found\backend)
+2026-04-16T15:21:29.441+05:30  INFO 15280 --- [  restartedMain] com.lostandfound.LostFoundApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-04-16T15:21:30.277+05:30  INFO 15280 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-16T15:21:30.278+05:30  INFO 15280 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-16T15:21:36.055+05:30  INFO 15280 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-16T15:21:36.752+05:30  INFO 15280 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 614 ms. Found 9 JPA repository interfaces.
+2026-04-16T15:21:40.988+05:30  INFO 15280 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-16T15:21:41.121+05:30  INFO 15280 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-16T15:21:41.123+05:30  INFO 15280 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-04-16T15:21:41.499+05:30  INFO 15280 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-16T15:21:41.502+05:30  INFO 15280 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11218 ms
+2026-04-16T15:21:43.142+05:30  INFO 15280 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-16T15:21:43.460+05:30  INFO 15280 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-16T15:21:43.682+05:30  INFO 15280 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-16T15:21:45.180+05:30  INFO 15280 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-16T15:21:45.307+05:30  INFO 15280 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-16T15:21:46.506+05:30  INFO 15280 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a37c612
+2026-04-16T15:21:46.513+05:30  INFO 15280 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-16T15:21:46.735+05:30  WARN 15280 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-16T15:21:46.738+05:30  WARN 15280 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-04-16T15:21:54.348+05:30  INFO 15280 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-16T15:21:55.149+05:30  INFO 15280 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T15:21:58.001+05:30  INFO 15280 --- [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-16T15:22:13.793+05:30  WARN 15280 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7855bb82-f341-4523-b63d-a64d10bef048
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-16T15:22:16.673+05:30  INFO 15280 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32880ef3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f39d92b, org.springframework.security.web.context.SecurityContextHolderFilter@312ec23b, org.springframework.security.web.header.HeaderWriterFilter@4c8f9404, org.springframework.web.filter.CorsFilter@1dcf5c60, org.springframework.security.web.authentication.logout.LogoutFilter@331e4202, com.lostandfound.config.SecurityConfig$1@6d6bb09b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79cac747, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6952f464, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e3d4b0e, org.springframework.security.web.session.SessionManagementFilter@55870014, org.springframework.security.web.access.ExceptionTranslationFilter@6351931f, org.springframework.security.web.access.intercept.AuthorizationFilter@1353ddf4]
+2026-04-16T15:22:18.600+05:30  INFO 15280 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-16T15:22:18.788+05:30  INFO 15280 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-04-16T15:22:18.872+05:30  INFO 15280 --- [  restartedMain] com.lostandfound.LostFoundApplication    : Started LostFoundApplication in 57.902 seconds (process running for 67.676)
