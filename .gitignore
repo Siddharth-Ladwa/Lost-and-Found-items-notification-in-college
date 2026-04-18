@@ -1,0 +1,8 @@
+node_modules/
+*.log
+*.class
+*.jar
+*.war
+dist/
+build/
+.vscode/
